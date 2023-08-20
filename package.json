@@ -1,15 +1,26 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Rishabh Kumar",
+	"description": "A project that's only for learning",
+	"keywords": [
+	  "descriptive",
+	  "related",
+	  "words",
+	  "freecodecamp"
+	],
+	"version": "1.2.0",
+	"license": "MIT",
 	"dependencies": {
-		"express": "^4.14.0"
+	  "package-name": "version",
+	  "@freecodecamp/example1": "~1.2.13",
+	  "@freecodecamp/example2": "^1.2.13"
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+	  "start": "node server.js"
 	},
 	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
+	  "type": "git",
+	  "url": "https://idontknow/todo.git"
 	}
-}
+  }
